@@ -1,0 +1,32 @@
+.App-Wrapper{
+  padding: 20px;
+  .App{
+    text-align: center;
+    border: 1px solid;
+    padding: 0px 20%;
+    .header{
+      font-weight: 800;
+    }
+    .balance-container{
+      border: 1px solid;
+      margin: 20px 0px;
+      font-weight: 600;
+      padding-bottom: 25px;
+    }
+    .transaction-container{
+      border: 1px solid;
+      margin-bottom: 20px;
+      min-height: 200px;
+      .header{
+        font-weight: 600;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .transaction-details{
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 20px;
+      }
+    }
+  }
+}
