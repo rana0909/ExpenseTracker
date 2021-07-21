@@ -20,7 +20,6 @@ class App extends React.Component{
   }
   handleAddClick(){
     var self = this;
-    // var n=0;
     let currentBalance = Number(self.state.overallBalance) + Number(self.state.balance);
     self.setState({
       overallBalance: currentBalance
